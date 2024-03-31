@@ -1,0 +1,634 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.section {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.containerSTART {
+    height: 85px;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+}
+
+.containerSTART a {
+    font-family: 'MyCustomFont', sans-serif; /* Fallback font */
+}
+
+.containerSTART a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.containerSTART {
+    padding: 20px;
+    margin: 10px;
+}
+
+.containerSTART {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerSTART {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.containerEND {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+/* Секция 1 */
+.container1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/japan.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* Секция 2 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-us p {
+    color: #999;
+    line-height: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #999;
+    line-height: 40px;
+}
+
+/* Секция 3 */
+.block{
+    display: flex;
+    align-items: center;
+    background-color:#27282b;
+    justify-content: center;
+  }
+  .left{
+    color: white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .button1-container, .left11, .left2, .left3 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.button1 {
+    background-color: #e1e0e0;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+  .right{
+    height: 800px; 
+    width: 50%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/asian.jpeg'); 
+    background-size: fill;
+    background-position: center;    
+    justify-content: center;
+}
+
+/* Секция 4 */
+.block1{
+    margin-top: 70px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  .project{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .project1{
+    width: 15%;
+    margin-bottom: 50px;
+  }
+  .project1 a{
+    color: black;
+  }
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+  .works-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+    transition: transform 0.3s ease-in-out;
+}
+  .works-grid img:hover {
+    transform: scale(1.05); 
+}
+
+/* Секция 5 */
+.block2 {
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/nightT.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project2 {
+    display: flex;
+    justify-content: center;
+    width: 80%; 
+  }
+  
+  .project21 {
+    width: 30%; 
+    justify-content: center;
+    text-align: center;
+    padding: 10px; 
+    display: inline-flex;
+  }
+  
+  .project21 a {
+    display: flex;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+  }
+  .project21 p {
+  margin-right: -10px;
+  }
+  
+  .img1 {
+    width: 50px; 
+    height: 50px; 
+  }
+
+  /* Секция 6 */
+  .block3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .who-we-are{
+    padding: 20px;
+    text-align: center;
+  }
+  .profile, .my-skills {
+    flex: 1 0 33.33%;
+    padding: 20px;
+    text-align: center;
+  
+  }
+  .who-we-are h2, .my-skills h3 {
+    margin-top: 0; 
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background-color: #333;
+  }
+  
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-list li {
+    margin-bottom: 15px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+  }
+  
+.progress {
+    height: 100%;
+    background-color: rgb(247, 146, 29);
+    border-radius: 5px;
+  }
+  .right1{
+    height: 350px; 
+    width: 69%;
+    margin-left: 2%;
+    background-color:rgb(230, 230, 230);
+    background-size: cover;
+    color: black;
+    background-position: center;    
+    justify-content: center;
+  }
+  .left1{
+    color: black;
+    width: 29%;
+    height: 350px; 
+    background-color:rgb(230, 230, 230);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .skills{ 
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* Секция 7  */
+.features2 {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #171f22;
+    color: #fff;
+  }
+  .features1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .img3{
+    height: 50px;
+    width: 50px;
+  }
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  .feature-item i {
+    font-size: 30px;
+    color: #f05050;
+    margin-bottom: 10px;
+  }
+  .feature-item p {
+    margin-bottom: 5px;
+  }
+
+ /* Секция 8  */
+  .blog-posts {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .blog-posts h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-posts p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .post {
+    width: 275px;
+    height: 360px;
+    background-color:rgb(197, 197, 197);
+    margin: 0 1.5% 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  .post1{
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .post a {
+    color: black;
+  }
+  .post p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .post-meta {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .post-meta span {
+    margin-right: 10px;
+  }
+
+  /*Секция 8 */
+  .container3 {
+    margin: 300px auto;
+    padding: 30px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .pricing-card {
+    background-color: #222;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-card.featured {
+    background-color: #f44336;
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pricing-card li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .pricing-card li:last-child {
+    border-bottom: none;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border: black 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+    /*Секция 10*/
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    padding: 0 10px;
+    margin-bottom: 270px;
+}
+
+.container4 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container4 p {
+    max-width: 600px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.container4 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container4 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container4 input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container4 textarea {
+    height: 150px;
+}
+
+.container4 button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container4 button:hover {
+    background-color: #d32f2f;
+}
+
+    /*Секция 11*/
+ .website-block {
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .logo-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.logo-icon img {
+    width: 40px;
+  }
+  
+  .text-content {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    align-items: center;
+  }
+  
+  .social-links {
+    text-align: center;
+    color: white;
+    align-items: center;
+  }
